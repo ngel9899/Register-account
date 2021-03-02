@@ -1,1 +1,1 @@
-https://github.com/ngel9899/Landing-page.git
+https://github.com/ngel9899/Register-account/tree/task-6
