@@ -33,7 +33,7 @@
 }
 
 .left-block-text {
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", sans-serif;
   line-height: 38px;
   padding: 370px 0 0 82px;
   width: 473px;
@@ -82,7 +82,7 @@
   outline: none;
 }
 .block-header-text-arrow a {
-  font-family: "Inter-SemiBold";
+  font-family: "Inter-SemiBold", sans-serif;
   color: #8692A6;
   line-height: 19px;
   text-decoration: none;
@@ -90,11 +90,11 @@
 }
 
 .block-header-text p:first-child {
-  font-family: "Inter-Medium";
+  font-family: "Inter-Medium", sans-serif;
   color: #BDBDBD;
 }
 .block-header-text p:last-child {
-  font-family: "Inter-SemiBold";
+  font-family: "Inter-SemiBold", sans-serif;
   color: #8692A6;
 }
 
@@ -103,13 +103,13 @@
   padding-left: 127px;
 }
 .right-block-container h2 {
-  font-family: "Inter-bold";
+  font-family: "Inter-bold", sans-serif;
   font-size: 30px;
   line-height: 36px;
 }
 .right-block-container p {
   padding-top: 10px;
-  font-family: "Inter-SemiBold";
+  font-family: "Inter-SemiBold", sans-serif;
   color: #8692A6;
   font-size: 18px;
   line-height: 28px;
@@ -120,21 +120,21 @@
   width: 542px;
 }
 .right-block-form label {
-  font-family: "Inter-Medium";
+  font-family: "Inter-Medium", sans-serif;
   color: #696F79;
   font-size: 16px;
 }
 .right-block-form .show {
   position: absolute;
   margin: -64px 0 0 357px;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", sans-serif;
   outline: none;
   cursor: pointer;
 }
 
 .input-text {
   display: block;
-  font-family: "Inter-Medium";
+  font-family: "Inter-Medium", sans-serif;
   font-size: 14px;
   padding-left: 30px;
   line-height: 17px;
@@ -155,7 +155,7 @@
 }
 
 .button {
-  font-family: "Inter-Medium";
+  font-family: "Inter-Medium", sans-serif;
   font-size: 16px;
   border-radius: 6px;
   line-height: 20px;
@@ -166,7 +166,7 @@
 
 .button-register {
   color: #ffffff;
-  background-color: #1565D8;
+  background-color: 123;
   margin-left: 127px;
   padding: 23px 147px;
 }
@@ -178,7 +178,7 @@
 }
 
 .button-google {
-  font-family: "Inter-Medium";
+  font-family: "Inter-Medium", sans-serif;
   font-weight: bold;
   margin-top: 25px;
   padding: 23px 137px;
