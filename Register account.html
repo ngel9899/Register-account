@@ -10,20 +10,26 @@
 <body>
 	<div class="container">
 		<div class="left-block">
-			<img src="img\oasis-logo.png">
-			<img src="img\oasis.png">
-			<img src="img\group-dot.png">
+			<img src="img\oasis-logo.png" class="oasis-logo">
+			<img src="img\group-dot.png" class="group-dot">
+			<img src="img\quotes.png" class="quotes">
 			<div class="left-block-text">
-				<img src="img\quotes.png">
 				<p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
-				<p>Vincent Obi</p>
-				<img src="img\angle.png">
+				<div class="left-block-text-inline">
+					<p>Vincent Obi</p>
+					<img src="img\check-mark.png">
+				</div>
 			</div>
-			<img src="img\sphere.png">
+			<img src="img\angle.png" class="angle">
+			<img src="img\sphere.png" class="sphere">
 		</div>
+
 		<div class="right-block">
 			<div class="right-block-header">
-				<a href=""><img src="img\arrow.png">Back</a>
+				<div class="block-header-text-arrow">
+					<img src="img\arrow.png">
+					<a href="">Back</a>
+				</div>
 				<div class="block-header-text">
 					<p>STEP 01/03</p>
 					<p>Personal Info.</p>
@@ -33,9 +39,31 @@
 				<h2>Register Individual Account!</h2>
 				<p>For the purpose of industry regulation, your details are required.</p>
 			</div>
-			<form>
-				
+			<form class="right-block-form">
+				<div>
+					<label class="form-text">Your fullname*</label>
+					<input placeholder="Enter email address" type="text" name="name" class="input-text">
+				</div>
+				<div>
+					<label class="form-text">Email address*</label>
+					<input placeholder="Enter email address" type="text" name="email" class="input-text">
+				</div>
+				<div>
+					<label class="form-text">Create password*</label>
+					<input placeholder="Enter email address" type="password" name="password" class="input-text">
+					<p class="show">Show</p>
+				</div>
+				<div class="block-check">
+			      	<input type="checkbox" name="mychekbox" id="mychekbox" class="form-chekbox">
+			      	<label for="mychekbox">I agree to terms & conditions </label>
+			    </div>
 			</form>
+			<button class="button button-register">Register Account</button>
+			    <fieldset class="right-block-fieldset">
+ 					 <legend class="fieldset-heading">or</legend>
+ 					 <img src="img\google.png" class="google-logo">
+ 					 <button class="button button-google">Register with Google</button>
+ 				</fieldset>
 		</div>
 	</div>
 </body>

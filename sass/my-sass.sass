@@ -1,0 +1,187 @@
+//Scss гораздо приятнее. без скобок и точек с запятой как-то неудобно.
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+$color_fff: #ffffff
+$background-color_blue: #1565D8
+
+ 
+
+.container
+	display: flex
+	height: 1024px
+	width: 1332px
+	margin: 0 auto
+
+.left-block
+	width: 50%
+	background-image: url('../img/background.png')
+	background-repeat: no-repeat
+
+.oasis-logo
+	position: absolute
+	padding: 64px 0 0 82px
+
+.group-dot
+	position: absolute
+	padding: 212px 0 0 416px
+
+.quotes
+	position: absolute
+	padding: 330px 0 0 82px
+
+.left-block-text
+	font-family: 'Inter-Regular'
+	line-height: 38px
+	padding: 370px 0 0 82px
+	width: 473px
+	color: $color_fff
+	img
+		height: 15px
+		border-radius: 100%
+		background-color: #08AD36
+		margin-left: 13.5px
+		padding: 4.5px 3.6px
+	.left-block-text-inline
+		display: flex
+		padding-top: 22px
+		align-items: center
+ 
+.angle
+	position:absolute
+	padding: 24px 0 0 484px
+
+.sphere
+	position: absolute
+	padding-top: 282px
+	margin-left: -518px
+
+.right-block
+	width: 50%
+
+.right-block-header
+	display: flex
+	justify-content: space-between
+	height: 36px
+	padding: 75px 0 78px 58px
+	text-align: right
+	align-items: center
+
+.block-header-text-arrow
+	display: flex
+	align-items: center
+	justify-content: center
+	cursor: pointer
+	outline: none
+	a 
+		font-family: 'Inter-SemiBold'
+		color: #8692A6
+		line-height: 19px
+		text-decoration: none
+		padding-left: 14px
+
+.block-header-text
+	p:first-child
+		font-family: 'Inter-Medium'
+		color: #BDBDBD
+	p:last-child
+		font-family: 'Inter-SemiBold'
+		color: #8692A6
+
+.right-block-container
+	width: 542px
+	padding-left: 127px
+	h2
+		font-family: 'Inter-bold'
+		font-size: 30px
+		line-height: 36px
+
+	p
+		padding-top: 10px
+		font-family: 'Inter-SemiBold'
+		color: #8692A6
+		font-size: 18px	
+		line-height: 28px
+
+.right-block-form
+	padding: 40px 0 0 127px
+	width: 542px
+	label
+		font-family: 'Inter-Medium'
+		color: #696F79
+		font-size: 16px
+	.show
+		position: absolute
+		margin: -64px 0 0 357px
+		font-family: 'Inter-Regular'
+		outline: none
+		cursor: pointer
+
+.input-text
+	display: block
+	font-family: 'Inter-Medium'
+	font-size: 	14px
+	padding-left: 30px
+	line-height: 17px
+	margin: 14px 0 24px 0
+	width: 426px
+	height: 64px
+	border-radius: 6px
+	border: 1px solid #8692A6
+
+.block-check
+	padding: 7px 0 39px 0
+	.form-chekbox
+		margin-right: 20px
+		width: 17px
+		height: 17px
+
+.button
+	font-family: 'Inter-Medium'
+	font-size: 16px
+	border-radius: 6px
+	line-height: 20px
+	border: 0
+	cursor: pointer
+	outline: none
+
+
+.button-register
+	color: $color_fff
+	background-color: $background-color_blue
+	margin-left: 127px
+	padding: 23px 147px
+	&:hover
+		background-color: darken($background-color_blue, 6.25%)
+	&:focus
+		background-color: darken($background-color_blue, 12.5%)
+
+.button-google
+	font-family: 'Inter-Medium'
+	font-weight: bold
+	margin-top: 25px
+	padding: 23px 137px
+	white-space: nowrap
+	background-color: #ffffff
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08)
+	&:hover
+		background-color: #e2e2e2
+	&:focus
+		background-color: #d3d3d3
+
+.right-block-fieldset
+	margin: 25px 0 0 127px
+	width: 426px
+	border: 0
+	border-top: 1px solid #F5F5F5
+
+.fieldset-heading
+	color: #BABABA
+	text-align: center
+	padding: 0 33px
+
+.google-logo
+	position: absolute
+	padding:46px 0 0 45px
